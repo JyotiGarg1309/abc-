@@ -25,9 +25,6 @@ public class Base_Mastbit {
 	@Parameters({"browser"})
    public void setup(String browser) throws IOException 
 	{
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tamanna Sharma\\Desktop\\chromedriver.exe");
-		
-		//driver =new ChromeDriver();
 		
 	if(browser.equalsIgnoreCase("firefox"))
 	{
@@ -35,9 +32,8 @@ public class Base_Mastbit {
 	}
 		
 	else if(browser.equalsIgnoreCase("chrome"))
+		
 		{
-		
-		
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tamanna Sharma\\Desktop\\chromedriver.exe");
 			
 	driver =new ChromeDriver();
