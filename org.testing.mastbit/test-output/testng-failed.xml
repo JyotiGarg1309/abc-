@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="FF_Browser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="org.testing.scripts.TC1">
+        <methods>
+          <include name="teatdown"/>
+          <include name="test1"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.testing.scripts.TC1 -->
+    </classes>
+  </test> <!-- FF_Browser(failed) -->
+  <test name="IE_Browser(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="org.testing.scripts.TC1">
+        <methods>
+          <include name="teatdown"/>
+          <include name="test1"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.testing.scripts.TC1 -->
+    </classes>
+  </test> <!-- IE_Browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
