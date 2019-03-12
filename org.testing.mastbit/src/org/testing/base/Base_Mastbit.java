@@ -65,6 +65,8 @@ public class Base_Mastbit {
 	
 	
 }
+//closing the browser	
+	
 @AfterMethod
 public void teatdown()
 {
